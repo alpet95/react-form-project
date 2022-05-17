@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 // ========== components ==========
-import Form from "./components/layout/Form";
-import Welcome from "./components/layout/Welcome";
+import Form from "./components/Form";
+import Welcome from "./components/Welcome";
+// ========== styles ==========
 import classes from "./App.module.css";
 
 const App = () => {
