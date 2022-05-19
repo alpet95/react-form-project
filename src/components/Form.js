@@ -8,6 +8,7 @@ const Form = (props) => {
   // ========== valid input value ==========
   const inputIsNotEmpty = (value) => value.trim() !== "";
   const inputFitsEmail = (value) =>
+    // eslint-disable-next-line
     value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/);
 
   // ========== custom input hook ==========
